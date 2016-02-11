@@ -1,0 +1,286 @@
+  body {
+    background-image: url(birch-desktop.png);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    color: #FDFDFD;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  #body-container {
+    width: 99%;
+    height: 40em;
+    border: .1em solid white;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding-top: 3.8em;
+  }
+
+  #left-panal {
+    float: left;
+    width: 21%;
+    margin-left: 3.75em;
+    margin-right: 7.5em;
+    z-index: 3;
+    position: absolute;
+  }
+
+  h1 {
+     font-style: italic;
+  }
+
+   h3 {
+     font-size: 3em;
+     font-style: italic;
+   }
+
+  #mission-statment {
+    margin-top: 4em;
+  }
+
+  #three-words {
+    margin-top: 1.875em;
+    font-style: italic;
+  }
+
+  #email-input-field {
+    margin-top: 3em;
+  }
+
+  #sign-up {
+
+  }
+
+  input {
+    display: -webkit-box;
+    height: 3.125em;
+    width: 20.625em;
+    margin-bottom: 0.9375em;
+    font-weight: 400;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1em;
+  }
+  #notify-button {
+    height: 3.125em;
+    width: 21.2em;
+    border-radius: 3%;
+  }
+
+  #big-panal {
+    width: 54%;
+    float: right;
+    z-index: 2;
+    border-left: double;
+    padding-left: 3em;
+  }
+
+  h1 {
+    font-size: 130px;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  #lorem {
+    text-align: center;
+    width: 80%;
+    padding: 0 8% 0 8%;
+  }
+
+  h4 {
+    text-align: center;
+    font-style: italic;
+  }
+  @media screen and (max-width: 1340px) {
+    h3 {}
+    #mission-statment {
+      margin-top: 2.5em;
+    }
+    #three-words {
+      margin-top: 1.25em;
+    }
+    #email-input-field {
+      margin-top: 2.25em;
+    }
+    #sign-up {}
+    input {
+      display: -webkit-box;
+      height: 2em;
+      width: 15em;
+      margin-bottom: 0.55em;
+    }
+    #notify-button {
+      height: 2em;
+      width: 15.5em;
+    }
+  }
+
+  @media screen and (max-width: 1020px) {
+    h3 {}
+    #mission-statment {
+      margin-top: 2.5em;
+    }
+    #three-words {
+      margin-top: 1.5em;
+    }
+    #email-input-field {
+      margin-top: 2.25em;
+    }
+    #sign-up {
+      font-size: 80%;
+    }
+    input {
+      display: -webkit-box;
+      height: 2.125em;
+      width: 15em;
+      margin-bottom: 0.75em;
+    }
+    #notify-button {
+      height: 2.125em;
+      width: 15.5em;
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    h1 {
+      font-size: 115px;
+    }
+  }
+  @media screen and (max-width: 825px){
+    body {
+      background-image: url(small-background.png);
+    }
+    h1 {
+      font-size: 100px;
+      padding-top: 1em;
+      text-align: center;
+    }
+    #left-panal {
+      width: 85%;
+    }
+    #mission-statment {
+      margin-top: 4em;
+    }
+    #three-words {
+      margin-top: 1.875em;
+    }
+    #email-input-field {
+      margin-top: 4.375em;
+    }
+    #sign-up {
+
+    }
+    input {
+      display: -webkit-box;
+      height: 3.125em;
+      width: 20.625em;
+      margin-bottom: 0.9375em;
+    }
+    #notify-button {
+      height: 3.125em;
+      width: 21.2em;
+    }
+    #big-panal {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-device-width: 736px){
+    body {
+      background-image: url(small-background.png);
+    }
+    h1 {
+      font-size: 100px;
+      padding-top: 1em;
+      text-align: center;
+    }
+    #left-panal {
+      width: 85%;
+    }
+    #mission-statment {
+      margin-top: 4em;
+    }
+    #three-words {
+      margin-top: 1.875em;
+    }
+    #email-input-field {
+      margin-top: 4.375em;
+    }
+    #sign-up {
+
+    }
+    input {
+      display: -webkit-box;
+      height: 3.125em;
+      width: 20.625em;
+      margin-bottom: 0.9375em;
+    }
+    #notify-button {
+      height: 3.125em;
+      width: 21.2em;
+    }
+    #big-panal {
+      display: none;
+    }
+  }
+
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)
+
+  {
+    body {
+      background-image: url(small-background.png);
+    }
+    #body-container {
+      height: 101em;
+      padding-top: 0;
+    }
+    h3 {
+      font-size: 8em;
+    }
+    #left-panal {
+      width: 85%;
+      margin-top: 0;
+      position: relative;
+    }
+    #mission-statment {
+      margin-top: 3em;
+      font-size: -webkit-xxx-large;
+    }
+    #three-words {
+      margin-top: 1.875em;
+    }
+    #email-input-field {
+      margin-top: 4.375em;
+    }
+    #sign-up {
+      font-size: -webkit-xxx-large;
+    }
+    input {
+      display: -webkit-box;
+      height: 8em;
+      width: 73em;
+      margin-bottom: 0.9375em;
+      background: none;
+      border: .1em solid white;
+    }
+
+    input placeholder {
+
+    }
+    #notify-button {
+      height: 8em;
+      width: 73.5em;
+    }
+    #big-panal {
+      display: none;
+    }
+  }
